@@ -49,7 +49,7 @@ This is a small test from one person, one phone and one day, so it needs more da
 ├── data/                                  train/ and test/ CSV recordings
 ├── raw/  +  prepare_dataset.py            original exports and the script that builds data/
 ├── figures/  tests/  requirements.txt
-└── Report_HMM_Activity_Recognition.docx
+└── Report.pdf                             the 5-page report
 ```
 
 ## ▶️ Run it
