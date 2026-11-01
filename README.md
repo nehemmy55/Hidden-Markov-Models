@@ -92,7 +92,6 @@ What I take from this:
 pip install -r requirements.txt
 python prepare_dataset.py --test-idx 12 13    # only to rebuild data/ from raw/
 jupyter notebook hmm_activity_recognition_final.ipynb    # restart and run all cells
-python -m pytest tests
 ```
 
 ## Files
@@ -103,7 +102,6 @@ prepare_dataset.py                     builds data/ from raw/
 data/                                  train and test CSV files
 raw/                                   original Sensor Logger exports
 figures/                               plots made by the notebook
-tests/                                 unit tests (forward-backward, Viterbi, Baum-Welch, metrics)
 Report.pdf                             the report
 ```
 
